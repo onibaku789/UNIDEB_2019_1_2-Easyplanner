@@ -1,4 +1,4 @@
-# Követelmény specifikáció
+# Funkció specifikáció
 
 #### Áttekintés
 
