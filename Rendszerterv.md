@@ -9,7 +9,7 @@ Az EasyPlanner célja, hogy megkönnyítse a rendszeresen összejáró csoportok
 
 ######Emberi erőforrások
 Az EasyPlanner weboldalon a Tacos kft. tagjai név szerint: 
-- Lácza Rolan
+- Lácza Roland
 - Varga Attila
 - Guzsik Dániel
 - Erdős Péter
