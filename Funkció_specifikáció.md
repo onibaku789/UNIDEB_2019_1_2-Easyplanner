@@ -32,15 +32,18 @@ A rendszerben szereplő összes felhasználónak először egy regisztrálciós 
 - egy aktív e-mail címet
 - jelszavát (melynek tartalmazni kell: kisbetűt, nagybetűt és számot)
 
+A bejelentkezett felhasználónak lehetősége van a létező csoportokhoz jelentkezni vagy új csoportot létrehozni.
 A bejelentkezett felhasználó a megfelelő felületet megválasztval, az általa elérhető időpontokat rögzíti és ezzel a csoport többi tagja számára is tudomásul adja. A rendszer ezeket az időpontokat összesítve (többi felhasználó időpontjaival) egy a csoport számára informatív táblázatot készít. Ez a táblázat szolgáltatja a legbővebb időintervallumot a hét egyes napjaira leosztva.
+A felhasználókanak lehetőségük van több csoporthoz is csatlakozni, így egy név akkár több táblázatban is megjelenhet. A felhasználóna nincs lehetősége ugyan azt az időpontot több csoport táblájában is megjelölni mint számára elérhető időpont.
 
-A felhasználónka lehetősége van időpontok helyett: 
+A felhasználónka lehetősége van időpontok helyett:
 - talán
 - időpont nem alkalmas
 válaszokat adni az adott napra.
 
 A felhasználónak minimális profilkezelési lehetősége vana. Nem változtathatja meg a nevét, e-mail címét. A profil kezelésében viszont lehetősége van avatár választása és jelszavának kezelésére.
 Saját képet az első verzióban nem tölthet fel avatárként, azonban későbbiekben ez még változhat. Jelszavának változtatására lehetőséget adunk az első verziótól kezdve.
+
 
 #### Képernyő tervek
 Főbb funkciók oldakra bontva
