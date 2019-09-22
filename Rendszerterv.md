@@ -7,6 +7,15 @@ Az EasyPlanner célja, hogy megkönnyítse a rendszeresen összejáró csoportok
 
 ###Projektterv
 
+######Emberi erőforrások
+Az EasyPlanner weboldalon a Tacos kft. tagjai név szerint: 
+- Lácza Rolan
+- Varga Attila
+- Guzsik Dániel
+- Erdős Péter
+
+######Projekt időtartama
+Az EasyPlanner weblap projektjének elkészülési határideje 2019. szeptember 30. (Amennyiben ez nem teljesül az elég nagy probléma lehet a Taco kft. számára)
 
 ######Mérföldkövek meghatározása:
 1. Domain meghatározása: Megfelelő domain név meghatározása. Elérhető szolgáltató felkutatása és a domain lefoglalása, üzembe helyezése.
