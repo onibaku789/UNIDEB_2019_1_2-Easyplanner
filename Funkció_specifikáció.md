@@ -17,6 +17,7 @@ A csapat Google Spreadsheets-ben vezeti a csapattagok számára megfelelő idői
 
 ####Rendszer használata
 
+<<<<<<< HEAD
 ####Képernyő tervek
 Főbb funkciók oldakra bontva
 Az weboldalon egy állandó fejléc, ahol a különböző menüpontok találhatóak.
@@ -28,3 +29,20 @@ Az weboldalon egy állandó fejléc, ahol a különböző menüpontok találhat�
  	Bejelentkezés után 
 - Profil
 - Csapatprofil
+=======
+A rendszerben szereplő összes felhasználónak először egy regisztrálciós folyamaton kell átesnie, ahol a regisztárlciós űrlapon megadja:
+- megadja a felhasználói nevét
+- egy aktív e-mail címet
+- jelszavát (melynek tartalmazni kell: kisbetűt, nagybetűt és számot)
+
+A bejelentkezett felhasználó a megfelelő felületet megválasztval, az általa elérhető időpontokat rögzíti és ezzel a csoport többi tagja számára is tudomásul adja. A rendszer ezeket az időpontokat összesítve (többi felhasználó időpontjaival) egy a csoport számára informatív táblázatot készít. Ez a táblázat szolgáltatja a legbővebb időintervallumot a hét egyes napjaira leosztva.
+
+A felhasználónka lehetősége van időpontok helyett: 
+- talán
+- időpont nem alkalmas
+ 
+válaszokat adni az adott napra.
+
+
+####Képernyő tervek
+>>>>>>> 035ce32b33b5cddacd6ed114236d0c647c0dec65
