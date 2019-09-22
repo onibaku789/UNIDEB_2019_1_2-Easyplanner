@@ -22,3 +22,9 @@ A társaság számára a kívánt cél egy olyan weboldal létrehozása lenne, a
 - Csapatok kezelése: Egy munkalapon két elszeparált táblázat létezik. Mindenki csak egy csapatban van feltüntetve.
 
 #### Kívánt üzleti folyamatok
+- Létrehozás
+	- A táblák hétről-hétre automatizáltan kerüljenek létrehozásra, illetve legyenek előre elérhetőek.
+- Módosítás
+  - A felhasználók (a moderátor(ok) kivételével) csak és kizárólag saját adataikat módosíthassák. A cellák -az áttekinthetőség érdekében- mindössze meghatározott számokat és jeleket (pl: +, -, ?) tartalmazhassanak. Az egyéb információk a cellához rendelt megjegyzés részben legyenek elérhetőek.
+- Csapatok kezelése:
+	- Egy felhasználó több csapatban is szerepelhessen. A csapatok legyenek elkülöníthetők. Ne lépjen fel időpontütközés, vagy adatkülönbség egy felhasználótól sem.
