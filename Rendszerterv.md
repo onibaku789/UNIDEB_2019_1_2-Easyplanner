@@ -24,3 +24,11 @@ Az EasyPlanner weblap projektjének elkészülési határideje 2019. szeptember 
 4. Az alkalmas időpontok kezelése: A felhasználó meg tudja adni a számára elérhető időpontokat a renszer ezt képes kiértékelni a többi felhasználótól származó időpontokkal.
 5. Táblázatok készítése a befolyt adatokból: A rendszer a hetit táblázatokat képes megalkotni, vizuális információt szolgáltat a táblázaton keresztül a megfelelő időpontokról
 6. 1.0 verzió: Amennyiven a fentiek teljesülnek a rendszer 1.0 verziója késznek tekinthető
+
+
+###Tesztelési tervezet
+Az EasyPlanner projektet minden mérföldkő elérése után egy a fejlesztőkből álló csoport teszteli, mindig az aktuálisan implementált funkciókra kiemelt figyelmet fordítva (emellett az előzőekben implementáltakat is szúrópróba szerűen ellenörzik). A 1.0 verzió elérése után a projektet egy megközelítőleg 10 embert számláló csooport (ami függetlena készítőktől) magas intenzitású használat során teszteli (stressz tesztet hajt végre). Amennyiben a tesztelés hiba nélkül megy végbe a weboldalt átadjuk a megrendelőnek, míg hiba esetén azt javítjuk és a weblap visszakerül a tesztelő csoporthoz.
+
+###Karbantartási tervezet
+
+A projekt átadása után a megrendelővel együttesen meghatározott megállapodás alapján.
