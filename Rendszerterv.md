@@ -67,3 +67,7 @@ Egy-egy landing pagenek lesz külön absztrakciós osztálya, ami lebonyolítja 
 További tervezési mintákat is alkalmazunk a projekt során: factory method, singleton
 Egyetlen belépési pont az index.php lesz, így könnyebb lesz levédeni esetleges támadások ellen.
 A webalkalmazást egy külső webtárhelyen tároljuk amelyet egy szolgáltatótól bérlünk (RackHost).
+
+
+
+### Üzleleti folyamatok
