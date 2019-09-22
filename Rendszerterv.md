@@ -35,3 +35,28 @@ Az EasyPlanner projektet minden mérföldkő elérése után egy a fejlesztőkb�
 ### Karbantartási tervezet
 
 A projekt átadása után a megrendelővel együttesen meghatározott megállapodás alapján.
+
+### Felhasználói felület
+
+**Belépés a rendszerbe**
+A felhasználó a főoldalt, azon is csak bizonyos szövegeket fog látni, ezen kívül pedig csak bejelentkezni, és regisztrálni tud majd. Felhasználónév, jelszó megadásával belépteti a rendszer, és átdobja a főoldalra. Ezt regisztrációnál email cím, felhasználónév, jelszó megadásával  szintén bejelentkezteti a főoldalra.
+
+Elképzelés:
+![Kinezet terv](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/login-page.jpg)
+
+**Csapathoz csatlakozás**
+Minden felhasználónak első körben csatlakoznia kell, vagy létre kell hoznia egy csapatot, ezután átirányítja egy oldalra, ahol megadhatja a heti beosztását egy táblázat segítségével.
+
+Elképzelés:
+![Elképzelés](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/team-page.jpg)
+
+###### Implementációs terv
+
+Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkül, csupán a Bootstrap, jQuery, popper.js könyvtárakat fogjuk igénybe venni. 
+A Model Controller View szerkezeti mintát követjük, és ez alapján építjük fel a mappaszerkezetet is. 
+Modulokban gondolkodunk, külön modul lesz egyes rendszerek implementálására, ilyen például a beléptető rendszer (login system), ezáltal könnyebb lesz bővíteni később a rendszert. 
+Minden modulon belül lesz külön az üzleti logikára koncentráló (model) rétegünk, ami nagyban elváll a megjelenéstől (view) és a vezérléstől (controller).
+Egy-egy landing pagenek lesz külön absztrakciós osztálya, ami lebonyolítja a futási sorrend problémát, hogy mindenképpen először a felhasználó bemenő adatait kezeljük, és csak utána jelenítsük meg a végeredményt.
+További tervezési mintákat is alkalmazunk a projekt során: factory method, singleton
+Egyetlen belépési pont az index.php lesz, így könnyebb lesz levédeni esetleges támadások ellen.
+A webalkalmazást egy külső webtárhelyen tároljuk amelyet egy szolgáltatótól bérlünk (RackHost).
