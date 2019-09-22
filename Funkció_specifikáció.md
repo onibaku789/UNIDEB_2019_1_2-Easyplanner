@@ -39,6 +39,9 @@ A felhasználónka lehetősége van időpontok helyett:
 - időpont nem alkalmas
 válaszokat adni az adott napra.
 
+A felhasználónak minimális profilkezelési lehetősége vana. Nem változtathatja meg a nevét, e-mail címét. A profil kezelésében viszont lehetősége van avatár választása és jelszavának kezelésére.
+Saját képet az első verzióban nem tölthet fel avatárként, azonban későbbiekben ez még változhat. Jelszavának változtatására lehetőséget adunk az első verziótól kezdve.
+
 #### Képernyő tervek
 Főbb funkciók oldakra bontva
 Az weboldalon egy állandó fejléc, ahol a különböző menüpontok találhatóak.
