@@ -57,26 +57,19 @@ Minden felhasználónak első körben csatlakoznia kell, vagy létre kell hoznia
 Elképzelés:
 ![Elképzelés](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/team-page.jpg)
 
+**Profil szerkesztése**<br>
+MInden felhasználónak lehetősége nyílik arra, hogy megváltoztassa a jelszavát és az avatarját egy előre definiált listából. Továbbá a felhasználó alap adatai is megjelennek az oldalon
+
+Elképzelés:
+![Elképzelés](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/profile-page.jpg)
+
 ###### Implementációs terv
 
-<<<<<<< HEAD
-Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkül, csupán a Bootstrap, jQuery, popper.js könyvtárakat fogjuk igénybe venni. 
-A Model Controller View szerkezeti mintát követjük, és ez alapján építjük fel a mappaszerkezetet is.
-Modulokban gondolkodunk, külön modul lesz egyes rendszerek implementálására, ilyen például a beléptető rendszer (login system), ezáltal könnyebb lesz bővíteni később a rendszert. 
-Minden modulon belül lesz külön az üzleti logikára koncentráló (model) rétegünk, ami nagyban elváll a megjelenéstől (view) és a vezérléstől (controller).
-Egy-egy landing pagenek lesz külön absztrakciós osztálya, ami lebonyolítja a futási sorrend problémát, hogy mindenképpen először a felhasználó bemenő adatait kezeljük, és csak utána jelenítsük meg a végeredményt.
-További tervezési mintákat is alkalmazunk a projekt során: factory method, singleton
-Egyetlen belépési pont az index.php lesz, így könnyebb lesz levédeni esetleges támadások ellen.
-A webalkalmazást egy külső webtárhelyen tároljuk amelyet egy szolgáltatótól bérlünk (RackHost).
-
-
-=======
 Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkül, csupán a Bootstrap, jQuery, popper.js könyvtárakat fogjuk igénybe venni.<br>A Model Controller View szerkezeti mintát követjük, és ez alapján építjük fel a mappaszerkezetet is.<br>Modulokban gondolkodunk, külön modul lesz egyes rendszerek implementálására, ilyen például a beléptető rendszer (login system), ezáltal könnyebb lesz bővíteni később a rendszert.<br>Minden modulon belül lesz külön az üzleti logikára koncentráló (model) rétegünk, ami nagyban elváll a megjelenéstől (view) és a vezérléstől (controller).<br>Egy-egy landing pagenek lesz külön absztrakciós osztálya, ami lebonyolítja a futási sorrend problémát, hogy mindenképpen először a felhasználó bemenő adatait kezeljük, és csak utána jelenítsük meg a végeredményt.<br>További tervezési mintákat is alkalmazunk a projekt során: factory method, singleton<br>Egyetlen belépési pont az index.php lesz, így könnyebb lesz levédeni esetleges támadások ellen.<br>A webalkalmazást egy külső webtárhelyen tároljuk amelyet egy szolgáltatótól bérlünk (RackHost).<br>
 **Üzleti logikát implementáló osztályok**<br>
 *User*<br>Magát a felhasználót reprezentálja, ennek az osztálynak a segítségével lehet beazonosítani egy embert.<br>
 *Team*<br>Egy adott csapatot reprezentál, paraméterként kap egy azonosítót, amely alapján egy csapatot tud kezelni az interfészén keresztül.<br>
 *TableManager*<br>A táblákat, csapatokat, felhasználókat összekötő manager osztály, ebben lehet lekérdezni az összes felhasználóhoz tartozó táblát, vagy akár csapat tagjaihoz tartozó táblákat, ez foglalkozik többek között az időpont-ütközésekkel is.
->>>>>>> 619901d57f2d1b6392a4ee3746ac92c08a508409
 
 ### Üzleleti folyamatok
 - **Felhasználó felvétele**: Mivel az eddigi rendszerben  nem lehettünk biztosak abban, hogy a mezőket a megfelelő felhasználó töltötte-e ki, a jövőbeli rendszerben muszáj lesz előzetesen regisztrálni ahhoz, hogy valamilyen módosítást végezzünk.
