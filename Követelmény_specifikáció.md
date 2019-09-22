@@ -14,4 +14,5 @@ Egy hobbi játékosokból álló csapat olyan időpontokat szeretne választani 
 #### Jelenlegi helyzet
 #### Vágyálom rendszer
 #### Jelenlegi üzleti folyamatok
+
 #### Kívánt üzleti folyamatok
