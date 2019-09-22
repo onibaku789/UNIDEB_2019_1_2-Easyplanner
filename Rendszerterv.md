@@ -26,7 +26,14 @@ Az EasyPlanner weblap projektjének elkészülési határideje 2019. szeptember 
 5. Táblázatok készítése a befolyt adatokból: A rendszer a hetit táblázatokat képes megalkotni, vizuális információt szolgáltat a táblázaton keresztül a megfelelő időpontokról
 6. 1.0 verzió: Amennyiven a fentiek teljesülnek a rendszer 1.0 verziója késznek tekinthető
 
+###Projekt fizikai környezete
+Az EasyPlanner egy böngészőben futó webalkalmazés, ennek következtében a használatához valamilyen böngésző (Google chrome, Firefox, Opera, Internet Explorer) használata szükséges. 
 
+A projekt által támogatott eszközök:
+- asztali számítógép/laptop
+- mobil készülékek (modern maroktelefon, tablet)
+
+A webalkalmazás bármely fentebb említett böngészőket futtatni képes operációsrendszeren elérhető.
 
 
 ### Tesztelési tervezet
