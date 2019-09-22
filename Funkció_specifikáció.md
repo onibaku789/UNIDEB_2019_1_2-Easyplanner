@@ -1,6 +1,8 @@
 # Funkció specifikáció
 * * *
 
+
+
 - [Jelenlegi helyzet](#jelenlegi-helyzet)
 - [A rendszer célja](#a-rendszer-célja)
 - [Rendszer használata](#rendszer-használata)
@@ -16,3 +18,13 @@ A csapat Google Spreadsheets-ben vezeti a csapattagok számára megfelelő idői
 ####Rendszer használata
 
 ####Képernyő tervek
+Főbb funkciók oldakra bontva
+Az weboldalon egy állandó fejléc, ahol a különböző menüpontok találhatóak.
+- Bejelentkezés:
+ A bejelentkező oldalon két ürlapmező található, ahol 		értelemszerűen be lehet jelentkezni, továbbá meg lehet 		adni az oldalnak, hogy emlékezzen a felhasználónkra és 		jelszavunkra.Illetve egy linket, ami átvisz minket a 		regisztrációs ürlapra.
+- Regisztráció
+   A regisztrációs oldalon négy ürlapmező található. Egy a felhasználónak, egy az e-mail címnek, kettő pedig a jelszónak és a jelszómegerősítésnek.
+- Home
+ 	Bejelentkezés után 
+- Profil
+- Csapatprofil
