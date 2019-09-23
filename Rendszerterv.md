@@ -76,3 +76,5 @@ Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkü
 - **Csapatok kezelése**: Az eddigi rendszerben a csapatok kezelése manuálisan kézileg és biztonsági szempontból is megkérdőjelezhetően működött. A weboldalon lehetőség lesz  csapatokat létrehozni. amibe csatlakozni felhasználó alapján felvétellel, csapatokhoz való jelentkezéssel vagy a csapatkapitány által generáltatható meghívó hivatkozás birtokánba lehet.
 - **Csapattagok kezelése**: A csoport vezetőjének lehetősége lesz felhasználókat felvenni felhasználónév, és meghívó link által is. Továbbá, tagok kirúgására is van lehetőség.
 
+### Adatbázisterv 
+![Adatbázis](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/ORM.PNG)
