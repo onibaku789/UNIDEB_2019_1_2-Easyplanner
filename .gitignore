@@ -92,3 +92,5 @@ modules.xml
 
 # előző proji könyvtár
 src/components/quiz/*
+src/.*
+src/components/system/config.php
