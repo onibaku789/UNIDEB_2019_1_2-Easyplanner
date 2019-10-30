@@ -2,11 +2,14 @@
 * * *
 
 
-
+###Tartalomjegyzék
 - [Jelenlegi helyzet](#jelenlegi-helyzet)
 - [A rendszer célja](#a-rendszer-célja)
-- [Rendszer használata](#rendszer-használata)
-- [Képernyő tervek](#képernyő-tervek)
+- [A rendszer használata](#rendszer-használata)
+- [Kínált üzleti folymatok](#kínált_üzleti_folyamatok)
+- [Követelménylista](#követelménylista)
+- [Használati esetek](#használati-esetek)
+- [Képernyőkép tervek](#képernyőkép-tervek)
 
 
 #### Jelenlegi helyzet
@@ -45,7 +48,7 @@ A felhasználónak minimális profilkezelési lehetősége vana. Nem változtath
 Saját képet az első verzióban nem tölthet fel avatárként, azonban későbbiekben ez még változhat. Jelszavának változtatására lehetőséget adunk az első verziótól kezdve.
 
 
-#### Képernyő tervek
+#### Képernyőkép tervek
 Főbb funkciók oldakra bontva
 Az weboldalon egy állandó fejléc, ahol a különböző menüpontok találhatóak.
 - Bejelentkezés:
