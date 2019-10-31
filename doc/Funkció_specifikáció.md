@@ -16,6 +16,11 @@
 
 A csapat Google Spreadsheets-ben vezeti a csapattagok számára megfelelő időintervallumokat. A tagok neveit egy oszlopba, a hét napjait pedig egy sorba vették fel és ebből csináltak egy táblázatot, majd ebből létrehoztak egy olyan sablon táblázatot, amit mintaként minden egyes héten manuálisan átmásolnak egy új munkalapra. A dátumok változása, és az egy új csapattag felvétele ugyancsak kézileg került felvitelre a táblázatban. Minden esetleges egyéb módosítást szintén kézzel végeznek. Problémák adódtak például a különböző készülékeken -úgymint okostelefon és tablet- keresztül történő módosításokkal is. Amennyiben valaki megjegyzést akart fűzni egy-egy naphoz, nem volt rá lehetőség, így az esetleges egyéb információkat a táblázat után írták a saját sorukba. A biztonsággal úgyszintén felmerültek komplikációk, mivel nem voltak korlátok szabva arra vonatkozóan, hogy bizonyos emberek mit módosíthatnak a táblázaton belül. Így tehát előfordulhatott az a helyzet is, hogy egy ember nem a saját "sorában” módosított adatokat, ha például elhibázta a sort. Továbbá, a megosztást egy szerkeszthetőséggel felruházó hivatkozással végezték, ennél fogva ennek a linknek a birtokában bárki módosíthatott bármit, ami ugyancsak nagymértékben csökkentette az információk megbízhatóságát. Gyakori jelenség volt, hogy valaki elfelejtette kitölteni a táblázatot, illetve az is, hogy az új hét kiírása (a sablon új munkalapra másolása és a dátumok módosítása) késve történt meg.
 
+- <b>Táblázat létrehozása</b>: Amint említettük egy Google Spreadsheets-ben töltögetjük a táblázatunkat, ezért létre kellett hozni minden héten a táblát, ki kellett törölni az előző adatokat, szóval nagyon időigényessé tette a szervezést.
+- <b>Táblázat kitöltése a felhasználói adatokkal</b>: Rengeteg problémát okozott, hogy két csapatunk van, ezért sokszor nem volt egyértelmű, hogy egy ember hova kerüljön.
+- <b>Táblázat kitöltése időpontokkal</b></b>: Egyértelműnek tűnik, hogy bejelöljük mikor érünk rá, de rengeteg embernek ez nem sikerül és átlag 20-ból 4-5ember nem tölti ki, ez legtöbbször probléma, mert folyamatosan zaklatni kell őket.
+- <b>Táblázat kiértékelése</b>: Az eddigi fő rendszerünk gyengesége, hogy nagyon sok időt elvett tőlünk az, hogy kiértékeljük a legjobb időpontot, ami mindenkinek megfelelő, és ott tud lenni az eseményen. Ez egy 20 fős társaság esetében általában fél órát vett igénybe, de később szeretnénk terjeszkedni és több, nagyobb csapatokat kialakítani.
+
 #### A rendszer célja
 
 Egy webalkalmazást fogunk írni, ami első körben tartalmazni fogja:
@@ -30,23 +35,36 @@ Több csapat létrehozására is lesz lehetőség, mégpedig azok a felhasnzál�
 
 #### Rendszer használata
 
-A rendszerben szereplő összes felhasználónak először egy regisztrálciós folyamaton kell átesnie, ahol a regisztárlciós űrlapon megadja:
-- megadja a felhasználói nevét
-- egy aktív e-mail címet
-- jelszavát (melynek tartalmazni kell: kisbetűt, nagybetűt és számot)
+A rendszer használatához szükség van egy felhasználóra, amelyet egy regisztrációs folyamaton keresztül hozhatunk létre, szükségünk lesznek a következő adatokra:
+- Felhasználónév (kötelező, min. 3 karakter, max. 32 karakter )
+- Jelszó
+  - Jelszavad min. 6 karakter, max. 64 karakter lehet
+  <br>Tartalmaznia kell a következőket<br>
+    - Legalább egy kisbetű
+    - Legalább egy nagybetű
+    - Legalább egy szám
+- Jelszó újra (meg kell egyeznie a jelszóval)
+- E-mail cím (kötelező, érvényes e-mail címet kell használni)
 
-A bejelentkezett felhasználónak lehetősége van a létező csoportokhoz jelentkezni vagy új csoportot létrehozni.
-A bejelentkezett felhasználó a megfelelő felületet megválasztval, az általa elérhető időpontokat rögzíti és ezzel a csoport többi tagja számára is tudomásul adja. A rendszer ezeket az időpontokat összesítve (többi felhasználó időpontjaival) egy a csoport számára informatív táblázatot készít. Ez a táblázat szolgáltatja a legbővebb időintervallumot a hét egyes napjaira leosztva.
-A felhasználókanak lehetőségük van több csoporthoz is csatlakozni, így egy név akkár több táblázatban is megjelenhet. A felhasználóna nincs lehetősége ugyan azt az időpontot több csoport táblájában is megjelölni mint számára elérhető időpont.
+Regisztráció után egyből a <b>Kezdőlapra</b> irányítja a felhasználót, ami a rendszerünk magja, de amíg nem csatlakoztunk csapathoz, vagy nem hoztunk létre egyet, addig nem tudjuk használni az időbeosztási táblát.
+Ami után csatlakozott egy csapathoz, akár meghívásos alapon, akár jelentkezett megjelenik neki egy legördülő menü a <b>Kezdőlapon</b>, ahol ki tudja választani a csapatát, amelyhez aktualizálni akarja a szabadidejét.
+A tábla a következőképpen néz ki:
 
-A felhasználónka lehetősége van időpontok helyett:
-- talán
-- időpont nem alkalmas
-válaszokat adni az adott napra.
+- Az aktuális naptól az elkövetkezendő hét napot tartalmazza, minden naphoz egy órás blokkok találhatók 0-24 óráig.
+- Alapból üresen (fehér állapotban vannak a blokkok), de viszont ha bejelölünk egy időpontot, akkor zöldre változik.
 
-A felhasználónak minimális profilkezelési lehetősége vana. Nem változtathatja meg a nevét, e-mail címét. A profil kezelésében viszont lehetősége van avatár választása és jelszavának kezelésére.
-Saját képet az első verzióban nem tölthet fel avatárként, azonban későbbiekben ez még változhat. Jelszavának változtatására lehetőséget adunk az első verziótól kezdve.
+Ha végeztünk a táblázat kitöltésével, akkor a Mentés gombra kattintunk az oldal alján, és egy üzenet jelezni is fogja, hogy sikeres volt-e a mentésünk. Ha esetleg nem sikerül, akkor felajánlja a rendszer, hogy írjon egy Ticketet a fejlesztőknek, mert rendszerbeli probléma történhetett.
 
+Található a menüsorban egy <b>Csapat</b> menüpont, ahol a statisztikák, és a napokra bontott összesítés történik: a rendszer kiszámolja, hogy melyik lenne a legjobb időpont rendezni egy programot.
+Ebben a menüpontban kerülnének olyan statisztikák is, mint például, hogy átlagosan mikor érnek rá a csapat tagjai, ezáltal később akár előre lehet következtetni a szabadidőket.
+Továbbá le lehet kérni, hogy ki pontosan mikor ér rá, mettől-meddig.
+(hó, nap, óra)<br>
+
+Rendszerünkön jogrendszer található, vannak olyan részei, amit csak az úgynevezett <b>Adminisztrátorok</b> vehetnek igénybe. Ilyen például az Admin fül, ahol több beállítás található, például hogy egy csapat maximum hány fővel rendelkezhet, és dönthet arról, hogy egy csapatnak vagy felhasználónak jogosultsága van-e használni az oldalt (azaz lehet törölni/tiltani felhasználót, csapatot). <br>
+
+Felhasználói jogrendszerben továbbá található egy menüpont, ahol megváltoztathatjuk az adatainkat, ez a <b>Profil</b> nevet kapta.
+Itt tudunk beállítani magunknak avatart (JPG, max. 300x300, és 200kbyte), megváltoztatni a jelszavunkat, és becenevet is beállíthatunk magunknak.<br>
+Ha már egy bejelentkezett felhasználó a <b>Kijelentkezés</b>re kattint, akkor visszakerül a <b>Kezdőlap</b>ra, ahonnan csak újra bejelentkezéssel tud hozzáférni adataihoz.
 
 #### Képernyőkép tervek
 Főbb funkciók oldakra bontva
@@ -59,7 +77,3 @@ Az weboldalon egy állandó fejléc, ahol a különböző menüpontok találhat�
  	Bejelentkezés után.
 - Profil
 - Csapatprofil
-
-
-
-
