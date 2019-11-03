@@ -23,7 +23,9 @@ A csapat Google Spreadsheets-ben vezeti a csapattagok számára megfelelő idői
 
 #### A rendszer célja
 
-Egy webalkalmazást fogunk írni, ami első körben tartalmazni fogja:
+A rendszer célja, hogy rendszert vigyen játékos csoportok életébe és segítse őket a mindenki számára
+elérhető, legkedvezőbb időpont megtalálásában. Ennek érdekében a Taco's kft.
+Egy webalkalmazást fog írni, ami első körben tartalmazni fogja:
 a regisztrációt, amiben egy felhasználónevet, jelszót, és egy email címet kell megadni,
 a bejelentkezést, felhasználónév és jelszó párossal tudnak hozzáférni a felhasználójukhoz
 továbbá lehetőséget adunk jelszóváltoztatásra, és egy előre megadott listából avatar választásra.
@@ -31,7 +33,25 @@ Ami a táblázatot illeti az első körben csak egy adott időintervallumban tud
 A napokhoz tartozik majd a dátumuk is, amelyet a rendszer automatikusan tölt ki, ezzel egyértelműen meglehet határozni, hogy ki mikor ér rá.
 A moderátorok értesítést kapnak arról, hogyha egy csapattag nem töltötte még ki a táblázatot. Ez történhet egyaránt emailben és felületen megjelenő értesítésként is.
 Megjegyzést lehet a beosztásukhoz fűzni, viszont a táblázatban dupla kattintással aktiválható lesz egy "Bizonytalan" státusz is, mely egyértelműen jelzi, hogy az illető nem biztos hogy ráér abban az időpontban.
-Több csapat létrehozására is lesz lehetőség, mégpedig azok a felhasnzálók akik a csapatot létrehozzák, azok lesznek az úgynevezett Moderátorok, akik több információt is megadhatnak a csapatról, embereket hívhatnak meg, és rúghatnak ki. Egy felhasználó több csapatban is megjelenthet egyszerre, egy felületen megjelenő legördülő menüből lehet választani, hogy jelenleg melyik csapatban szeretnének utasításokat elvégezni.
+Több csapat létrehozására is lesz lehetőség, mégpedig azok a felhasnzálók akik a csapatot létrehozzák, azok lesznek az úgynevezett Moderátorok, akik több információt is megadhatnak a csapatról, embereket hívhatnak meg, és rúghatnak ki.
+Egy felhasználó több csapatban is megjelenthet egyszerre, egy felületen megjelenő legördülő menüből lehet választani, hogy jelenleg melyik csapatban szeretnének utasításokat elvégezni.
+A webalkalmazás home page-e egy bejelentkezett felhasználónak az általa kiválasztott csoport (a kiválasztás egy legördülő menü keresztül történik) aktuális információit
+ tartalmazza úgy mint:
+ - az adott napoknak a legkedvezőbb időpontjait
+ - csapat nevét
+ - a leghosszabb intervallumot egy-egy napra
+
+
+így a felhasználó könnyen, gyorsan informálódhat az aktuális helyzetről és az időpontokról, intervallumokról.
+Nem regisztrált vagy nem bejelentkezett felhasználó ezeket az információkat nem érhetik el.
+<br>
+###### Arendszernek nem célja
+A rendszernek nem célja vizsgálni azt, hogy a betervezett esemény megvalósult-e és azt, hogy
+visszajelzett felhasználók megjelentek-e a kért időben.
+<br>Továbbá a Taco's kft. munkatársai meglátása szerint a
+kvíz funkciókat egy az easyplanner-től különálló, független webalkalmazásban érdemesebb lenne fejleszteni,
+szemelőtt tartva az egyszerűséget és az alkalmazás átláthatóságat.
+
 
 #### Rendszer használata
 
