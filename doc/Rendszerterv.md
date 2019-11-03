@@ -88,9 +88,13 @@ Az időpont táblázaton végzett műveleteket implementáljuk, például itt sz
 
 ### Üzleti folyamatok
 - **Felhasználó felvétele**: Mivel az eddigi rendszerben  nem lehettünk biztosak abban, hogy a mezőket a megfelelő felhasználó töltötte-e ki, a jövőbeli rendszerben muszáj lesz előzetesen regisztrálni ahhoz, hogy valamilyen módosítást végezzünk.
-- **Csapatok kezelése**: Az eddigi rendszerben a csapatok kezelése manuálisan kézileg és biztonsági szempontból is megkérdőjelezhetően működött. A weboldalon lehetőség lesz  csapatokat létrehozni. amibe csatlakozni felhasználó alapján felvétellel, csapatokhoz való jelentkezéssel vagy a csapatkapitány által generáltatható meghívó hivatkozás birtokánba lehet.
+- **Csapatok kezelése**: Az eddigi rendszerben a csapatok kezelése manuálisan kézileg és biztonsági szempontból is megkérdőjelezhetően működött. A weboldalon lehetőség lesz  csapatokat létrehozni. amibe csatlakozni felhasználó alapján felvétellel, csapatokhoz való jelentkezéssel vagy a csapatkapitány által generáltatható meghívó hivatkozás birtokába lehet.
 - **Csapattagok kezelése**: A csoport vezetőjének lehetősége lesz felhasználókat felvenni felhasználónév, és meghívó link által is. Továbbá, tagok kirúgására is van lehetőség.
-
+- **Táblázat kezelése**: A bejelentkezett felhasználó a táblázat üres mezőjére kattint, ezzel jelzi, hogy az adott időpont neki megfelelő, ekkor a mező zöldre vált. Amennyiben egy zöld mezőre kattint úgy, az a mező fehérre vált. Ezzel jelzi, hogy az időpont nem megfelelő számára.
+- **Táblázat mentése**: A felhasználó mikor elkészült a táblázat változtatásával a Tábla mentése gombra kattintva tárolja el a változtatásait. Csak ezek után képes az alkalmazás a bejelölt időpontokat összevetni a többiekével.
+- **Csapat létrehozása**: A felhasználó a Csapat létrehozása gombra kattintva elérheti azt a felületet amivel új csapatot hozhat létre. Itt meg kell adja a csapat nevét, és a csapat rövid leírását.
+- **Létrehozás megerősítése**: Amennyiben a kitöltött adatokkal a csapat létrehozásánál a felhasználó elégedett. A kék csapat létrehozása gombra kattintva menti azokat, létrehozza a csapat tábláját és be is lép a csapatba automatikusan.
+- **Csapat létrehozásának visszavonása**: Amennyiben a csapat létrehozása felületen vagyunk és kitöltöttük a csapat adatait, de mégsem kívánjuk létrehozni azt. A Vissza a főoldalra gombra kattintva, a főoldal jelenik meg és a csapat nem kerül létrehozásra.
 ### Adatbázisterv
 ![Adatbázis](img/ADATBÁZISTERV.PNG)
 
