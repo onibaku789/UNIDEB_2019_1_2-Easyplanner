@@ -92,6 +92,11 @@ Rendszerünkön jogrendszer található, vannak olyan részei, amit csak az úgy
 Felhasználói jogrendszerben továbbá található egy menüpont, ahol megváltoztathatjuk az adatainkat, ez a <b>Profil</b> nevet kapta.
 Itt tudunk beállítani magunknak avatart (JPG, max. 300x300, és 200kbyte), megváltoztatni a jelszavunkat, és becenevet is beállíthatunk magunknak.<br>
 Ha már egy bejelentkezett felhasználó a <b>Kijelentkezés</b>re kattint, akkor visszakerül a <b>Kezdőlap</b>ra, ahonnan csak újra bejelentkezéssel tud hozzáférni adataihoz.
+<br>
+
+Az webalkalmazás minden lapján elérhető továbbá a felhasználó számára a kijelentkezés gomb. A kijelentekzett felhasználó értelem szerűen
+nem fér hozzá és nem is látja sem a saját csapatai sem más csapatok táblázatait és egyéb információit.<br>
+
 
 #### Képernyőkép tervek
 Főbb funkciók oldakra bontva
