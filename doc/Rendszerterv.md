@@ -86,7 +86,7 @@ Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkü
 - **Csapattagok kezelése**: A csoport vezetőjének lehetősége lesz felhasználókat felvenni felhasználónév, és meghívó link által is. Továbbá, tagok kirúgására is van lehetőség.
 
 ### Adatbázisterv 
-![Adatbázis]()
+![Adatbázis](img/ADATBÁZISTERV.PNG)
 
 
 ### Teszterv
