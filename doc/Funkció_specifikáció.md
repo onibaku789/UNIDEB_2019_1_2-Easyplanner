@@ -35,8 +35,10 @@ A moderátorok értesítést kapnak arról, hogyha egy csapattag nem töltötte 
 Megjegyzést lehet a beosztásukhoz fűzni, viszont a táblázatban dupla kattintással aktiválható lesz egy "Bizonytalan" státusz is, mely egyértelműen jelzi, hogy az illető nem biztos hogy ráér abban az időpontban.
 Több csapat létrehozására is lesz lehetőség, mégpedig azok a felhasnzálók akik a csapatot létrehozzák, azok lesznek az úgynevezett Moderátorok, akik több információt is megadhatnak a csapatról, embereket hívhatnak meg, és rúghatnak ki.
 Egy felhasználó több csapatban is megjelenthet egyszerre, egy felületen megjelenő legördülő menüből lehet választani, hogy jelenleg melyik csapatban szeretnének utasításokat elvégezni.
-A webalkalmazás home page-e egy bejelentkezett felhasználónak az általa kiválasztott csoport (a kiválasztás egy legördülő menü keresztül történik) aktuális információit
- tartalmazza úgy mint:
+A webalkalmazás home page-e egy bejelentkezett felhasználónak az általa kiválasztott csapat (a kiválasztás egy legördülő menü keresztül történik) aktuális információit
+ tartalmazza a táblázat helyzetéről. <br>
+ 
+ A csapat menüpontban (amit az oldal felső részén elhelyezkedő sávból tudunk kiválasztani) olyan információkat érhetünk el mint:
  - az adott napoknak a legkedvezőbb időpontjait
  - csapat nevét
  - a leghosszabb intervallumot egy-egy napra
@@ -78,7 +80,12 @@ Ha végeztünk a táblázat kitöltésével, akkor a Mentés gombra kattintunk a
 Található a menüsorban egy <b>Csapat</b> menüpont, ahol a statisztikák, és a napokra bontott összesítés történik: a rendszer kiszámolja, hogy melyik lenne a legjobb időpont rendezni egy programot.
 Ebben a menüpontban kerülnének olyan statisztikák is, mint például, hogy átlagosan mikor érnek rá a csapat tagjai, ezáltal később akár előre lehet következtetni a szabadidőket.
 Továbbá le lehet kérni, hogy ki pontosan mikor ér rá, mettől-meddig.
-(hó, nap, óra)<br>
+(hó, nap, óra) Amennyiben a csapatot mi hoztuk létre, úgy lehetőségünk van ezen felületen egy link generálására is. A link továbbíthatjuk már regisztrált felhasználók
+számára, akik ennek segítségével könnyedén csatlakozhatnak a csapatunkhoz.<br>
+
+Lehetősége van a felhasználónak új csapatot létrehozni, ezt a kezdőlapon található "csapat létrehozása" gombra kattintva teheti meg.
+A létrehozáskor meg kell adjuk a csapat nevét és rövid leírását. Mindezek után a csapat létrehozása gombra kattinta az új csapatunk
+táblázata már készen is áll a használatra, jelenleg egy csapattaggal (a csapat készítőjével).
 
 Rendszerünkön jogrendszer található, vannak olyan részei, amit csak az úgynevezett <b>Adminisztrátorok</b> vehetnek igénybe. Ilyen például az Admin fül, ahol több beállítás található, például hogy egy csapat maximum hány fővel rendelkezhet, és dönthet arról, hogy egy csapatnak vagy felhasználónak jogosultsága van-e használni az oldalt (azaz lehet törölni/tiltani felhasználót, csapatot). <br>
 
