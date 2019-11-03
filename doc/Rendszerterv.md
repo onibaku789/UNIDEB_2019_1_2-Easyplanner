@@ -45,9 +45,6 @@ A projekt által támogatott eszközök:
 A webalkalmazás bármely fentebb említett böngészőket futtatni képes operációsrendszeren elérhető.
 
 
-### Tesztelési tervezet
-Az EasyPlanner projektet minden mérföldkő elérése után egy a fejlesztőkből álló csoport teszteli, mindig az aktuálisan implementált funkciókra kiemelt figyelmet fordítva (emellett az előzőekben implementáltakat is szúrópróba szerűen ellenörzik). A 1.0 verzió elérése után a projektet egy megközelítőleg 10 embert számláló csooport (ami függetlena készítőktől) magas intenzitású használat során teszteli (stressz tesztet hajt végre). Amennyiben a tesztelés hiba nélkül megy végbe a weboldalt átadjuk a megrendelőnek, míg hiba esetén azt javítjuk és a weblap visszakerül a tesztelő csoporthoz.
-
 ### Karbantartási tervezet
 
 A projekt átadása után a megrendelővel együttesen meghatározott megállapodás alapján.
@@ -64,13 +61,13 @@ Elképzelés:
 Minden felhasználónak első körben csatlakoznia kell, vagy létre kell hoznia egy csapatot, ezután átirányítja egy oldalra, ahol megadhatja a heti beosztását egy táblázat segítségével.
 
 Elképzelés:
-![Elképzelés]()
+![Elképzelés](img/team-page.jpg)
 
 **Profil szerkesztése**<br>
 MInden felhasználónak lehetősége nyílik arra, hogy megváltoztassa a jelszavát és az avatarját egy előre definiált listából. Továbbá a felhasználó alap adatai is megjelennek az oldalon
 
 Elképzelés:
-![Elképzelés]()
+![Elképzelés](img/profile-page.jpg)
 
 ###### Implementációs terv
 
