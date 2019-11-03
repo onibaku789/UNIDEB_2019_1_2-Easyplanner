@@ -94,9 +94,11 @@ Itt tudunk beállítani magunknak avatart (JPG, max. 300x300, és 200kbyte), meg
 Ha már egy bejelentkezett felhasználó a <b>Kijelentkezés</b>re kattint, akkor visszakerül a <b>Kezdőlap</b>ra, ahonnan csak újra bejelentkezéssel tud hozzáférni adataihoz.
 <br>
 
-Az webalkalmazás minden lapján elérhető továbbá a felhasználó számára a kijelentkezés gomb. A kijelentekzett felhasználó értelem szerűen
+Az webalkalmazás minden lapján elérhető a felhasználó számára a kijelentkezés gomb. A kijelentekzett felhasználó értelem szerűen
 nem fér hozzá és nem is látja sem a saját csapatai sem más csapatok táblázatait és egyéb információit.<br>
 
+A kijelentkezéshez hasonlóan az admin felület is bárhonnan elérhető az adminok számára. Ezen a felületen az adminok töbekközött felhasználók jogköreit
+tudják kezelni.
 
 #### Képernyőkép tervek
 Főbb funkciók oldakra bontva
