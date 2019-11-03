@@ -6,6 +6,7 @@
 - [Jelenlegi helyzet](#jelenlegi-helyzet)
 - [A rendszer célja](#a-rendszer-célja)
 - [A rendszer használata](#rendszer-használata)
+- [Követelménylista](#követelménylista)
 - [Kínált üzleti folymatok](#kínált_üzleti_folyamatok)
 - [Követelménylista](#követelménylista)
 - [Használati esetek](#használati-esetek)
@@ -47,7 +48,7 @@ A webalkalmazás home page-e egy bejelentkezett felhasználónak az általa kiv�
 így a felhasználó könnyen, gyorsan informálódhat az aktuális helyzetről és az időpontokról, intervallumokról.
 Nem regisztrált vagy nem bejelentkezett felhasználó ezeket az információkat nem érhetik el.
 <br>
-###### Arendszernek nem célja
+###### A rendszernek nem célja
 A rendszernek nem célja vizsgálni azt, hogy a betervezett esemény megvalósult-e és azt, hogy
 visszajelzett felhasználók megjelentek-e a kért időben.
 <br>Továbbá a Taco's kft. munkatársai meglátása szerint a
@@ -99,6 +100,24 @@ nem fér hozzá és nem is látja sem a saját csapatai sem más csapatok tábl�
 
 A kijelentkezéshez hasonlóan az admin felület is bárhonnan elérhető az adminok számára. Ezen a felületen az adminok töbekközött felhasználók jogköreit
 tudják kezelni.
+
+
+#### Követelménylista
+
+##### A játékosok csoportja a következő folyamatokat mindenképpen szeretnék látni az elkészült webalkalmazásban:
+- Felhasználók be és kijelentkezésének lehetőségét.
+- Felhasználok a számukra elérhető iőpontokat táblázatban szeretnék rögzíteni.
+- Felhasználók csapatokba jelentkezhessenek.
+- Felhasználóknak a táblázatok alapján egy külön oldal biztosítson információt az aktuális helyzetről.
+- Admin felület.
+- Aki nem tagja a csoportnak ne nézhesse meg a táblázatok állást.
+- Felhasználó adatainak módosítási lehetőség
+- könnyű csapatba való invitálás
+
+##### Azok a folyamatok melyek nem kulcsfontoságúak: 
+- kvíz felület
+- minden felhasználó hozasson létre kvízt
+- kvízeken elért felhasználói eredményeket összhasonlíthassuk a csapat többi felhasználóinak eredményeivel
 
 #### Képernyőkép tervek
 Főbb funkciók oldakra bontva
