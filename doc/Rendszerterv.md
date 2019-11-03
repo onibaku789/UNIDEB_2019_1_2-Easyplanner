@@ -221,15 +221,51 @@ Az időpont táblázaton végzett műveleteket implementáljuk, például itt sz
       </tr>
       <tr>
             <td>H0018
-            <td>Home
+            <td>Új csapat létrehozása
             <td> Csapat név kitöltése 3 karakternél hosszabb, de 32 karakternél rövidebb névvel, és a csapat leírás kitöltése 15-nél hosszabb, de 128 karakternél rövidebb leírással.
             <td> Siker, csapat létrehozva megadott névvel és leírással
       </tr>
       <tr>
             <td>H0019
-            <td>Home
+            <td>Új csapat létrehozása
             <td> Csapat név és leírás kitöltése a kritériumoknak nem megfelelően.
-            <td> Hiba, hibaüzenet megjelenítése.
+            <td> Hiba, megfelelő hibaüzenet megjelenítése.
+      </tr>
+      <tr>
+            <td>H0020
+            <td>Home
+            <td> Csapatra kattintás
+            <td> Siker, átvisz a csapat menüpontba
+      </tr>
+      <tr>
+            <td>H0021
+            <td>Csapat
+            <td> Ha csapatvezető vagy, akkor meghívó link gomb megjelenítése
+            <td> Siker, a gomb megjelent
+      </tr>
+      <tr>
+            <td>H0022
+            <td>Csapat
+            <td> Meghívó link gombra kattintás
+            <td> Siker, az eddig üres mezőbe egy link generálódott, amit a mellette lévő ollóval ki lehet másolni
+      </tr>
+      <tr>
+            <td>H0023
+            <td>Csapat
+            <td> Az ollóra kattintással vágólapra tenni az inputban lévő linket
+            <td> Siker, az inputban lévő link a vágólapon
+      </tr>
+      <tr>
+            <td>H0024
+            <td>Bejelentkezés
+            <td> A kimásolt linkkel látogatva az oldalt ha az illető nincs bejelentkezve, akkor a bejelentkezés pontra dobja
+            <td> Siker, az illetőt a bejelentkezés menüpontra dobja.
+      </tr>
+      <tr>
+            <td>H0025
+            <td>Home
+            <td> Bejelentkezés után bedobja a meghívott csapatba. innentől az is kiválasztható.
+            <td> Siker, bejelentkezés után a csapat megjelenik és kiválasztható
       </tr>
 
  </table>
