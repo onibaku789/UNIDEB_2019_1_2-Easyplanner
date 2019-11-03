@@ -13,6 +13,7 @@
 
 Az EasyPlanner célja, hogy megkönnyítse a rendszeresen összejáró csoportok számára a találkozók idejének a meghatározását és jól látható egyértelmű módon vizualizált formában is tudassa azt a felhasználóval. Ezt oly módon teszi, hogy a tagok mindegyike kiválasztja az egyes napokra a számáre legmegfelelőbb időpontokat, időintervallumot és ezek összegzése utána a rendszer minden egyes napra meghatároz idősávot/idősávokat, amelyben a lehető legtöbb tag elérhető. Továbbá ezt egy táblázatban ábrázolja is. A táblázatban látható legyen, hogy az adott napon kik és mikor érnek rá az adott tevékenységre, információt tudjon szolgáltatni arról, ha valaki egyáltalán nem ér ra aznap vagy épp nem biztos a megadott időpontban (talán elérhető a felhasználó).
 
+
 ### Projektterv
 
 ###### Emberi erőforrások
@@ -57,19 +58,19 @@ A projekt átadása után a megrendelővel együttesen meghatározott megállapo
 A felhasználó a főoldalt, azon is csak bizonyos szövegeket fog látni, ezen kívül pedig csak bejelentkezni, és regisztrálni tud majd. Felhasználónév, jelszó megadásával belépteti a rendszer, és átdobja a főoldalra. Ezt regisztrációnál email cím, felhasználónév, jelszó megadásával  szintén bejelentkezteti a főoldalra.
 
 Elképzelés:
-![Kinezet terv](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/login-page.jpg)
+![Kinezet terv](img/login-page.jpg)
 
 **Csapathoz csatlakozás**
 Minden felhasználónak első körben csatlakoznia kell, vagy létre kell hoznia egy csapatot, ezután átirányítja egy oldalra, ahol megadhatja a heti beosztását egy táblázat segítségével.
 
 Elképzelés:
-![Elképzelés](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/team-page.jpg)
+![Elképzelés]()
 
 **Profil szerkesztése**<br>
 MInden felhasználónak lehetősége nyílik arra, hogy megváltoztassa a jelszavát és az avatarját egy előre definiált listából. Továbbá a felhasználó alap adatai is megjelennek az oldalon
 
 Elképzelés:
-![Elképzelés](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/profile-page.jpg)
+![Elképzelés]()
 
 ###### Implementációs terv
 
@@ -85,4 +86,4 @@ Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkü
 - **Csapattagok kezelése**: A csoport vezetőjének lehetősége lesz felhasználókat felvenni felhasználónév, és meghívó link által is. Továbbá, tagok kirúgására is van lehetőség.
 
 ### Adatbázisterv 
-![Adatbázis](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Easyplanner/master/img/ORM.PNG)
+![Adatbázis]()
