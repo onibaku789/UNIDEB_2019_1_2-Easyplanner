@@ -95,6 +95,7 @@ Az időpont táblázaton végzett műveleteket implementáljuk, például itt sz
 - **Csapat létrehozása**: A felhasználó a Csapat létrehozása gombra kattintva elérheti azt a felületet amivel új csapatot hozhat létre. Itt meg kell adja a csapat nevét, és a csapat rövid leírását.
 - **Létrehozás megerősítése**: Amennyiben a kitöltött adatokkal a csapat létrehozásánál a felhasználó elégedett. A kék csapat létrehozása gombra kattintva menti azokat, létrehozza a csapat tábláját és be is lép a csapatba automatikusan.
 - **Csapat létrehozásának visszavonása**: Amennyiben a csapat létrehozása felületen vagyunk és kitöltöttük a csapat adatait, de mégsem kívánjuk létrehozni azt. A Vissza a főoldalra gombra kattintva, a főoldal jelenik meg és a csapat nem kerül létrehozásra.
+- **Intervallum kiszámítása**: A rendszer képes arra, hogy az időintervallumokból, amiket lementünk táblánként kiszámolja a legmegfelelőbb intervallumot, és kilistázza az(okat ha esetleg több lenne belőlük). Lehetséges napra bontani az optimális időket, vagy kilistázni az összes csapattag idejét.
 ### Adatbázisterv
 ![Adatbázis](img/ADATBÁZISTERV.PNG)
 
