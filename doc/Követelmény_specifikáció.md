@@ -24,6 +24,8 @@ A csapat Google Spreadsheets-ben vezeti a csapattagok számára megfelelő idői
 
 #### Vágyálom rendszer
 A társaság számára a kívánt cél egy olyan weboldal létrehozása lenne, ahol a játékosok beregisztrálhatnak, és -kizárólag- maguknak beírhatják, hogy milyen időpontok felelnek meg nekik az adott héten. Ez alól kivételt képezzen(ek) a kijelölt moderátor(ok), aki(k)nek álljon módjukban más felhasználók adatait is kezelni. A késői új hét kiírás elkerülésére szeretnék, ha az új hét táblázata a megfelelő dátummal automatikusan megjelenne, illetve előre kitölthető lenne, valamint azt is szeretnék, hogy valamiféle emlékeztetőt kapjanak a tagok a kitöltésre. Szintén tudni óhajtják, mely felhasználók nem vittek még be adatot. Igényelnék a lehetőséget továbbá arra is, hogy megjegyzést fűzhessenek a kitöltésükhöz, hiszen szükséges valamilyen formában jelezniük, ha például az időpont ingatag, vagy várhatóan változni fog. Fontos lenne, hogy létrehozhassanak több csapatot, és ezeket vizuálisan jól elkülöníthetően kezelhessék, valamint számottevő, hogy egy felhasználó egyszerre több csapatba is tartozhasson.
+Szeretnénk, ha a felhasználónk csak a saját csoportjainak információját érnék el és a többi csoportét ne tudják megjeleníteni.
+Szeretnénk továbbá egy quvíz felületet, amiben a felhaználók képesek felmutatni a tudásukat az adott játékról, tanulhatnak a helytelen válaszokból és összemérhetik az ismereteiket a csapattagokkal.
 #### Jelenlegi üzleti folyamatok
 - Létrehozás: A táblák hétről-hétre manuálisan, egy sablont másolva kerülnek létrehozásra. A mintában szükséges módosítani a dátumokat. Bárkinek van erre felhatalmazása.
 - Módosítás: Semmiféle módosítás nem felügyelt, vagy korlátozott, bárki módosíthat bármit. A cellák akármit tartalmazhatnak.
