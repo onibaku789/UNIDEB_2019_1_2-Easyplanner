@@ -38,6 +38,7 @@ Az EasyPlanner weblap projektjének elkészülési határideje 2019. szeptember 
 9. Admin felület elkészítése, admin folyamatok implementálása(pl.:jogkör adás/elvétel)
 10. My account felület elkészítése, felhasználói fiók kezelésének lehetsőge
 
+
 ###Projekt fizikai környezete
 Az EasyPlanner egy böngészőben futó webalkalmazés, ennek következtében a használatához valamilyen böngésző (Google chrome, Firefox, Opera, Internet Explorer) használata szükséges. 
 
@@ -172,5 +173,29 @@ Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkü
             <td> A kijelentkezés gombra kattintás.
             <td> Siker, felugró ablakban jelezve, a felhasználó kiléptetését.
       </tr>
-    
+       <tr>
+             <td>H0012
+             <td>Home
+             <td> Csapat létrehozása gombra kattintás.
+             <td> Siker, az alkalmazás a csapat létrehozá oldalra navigál.
+       </tr>
+      <tr>
+            <td>H0013
+            <td>Home
+            <td> Időpont megadása mezőre kattintva
+            <td> Siker, a táblázat kattintott mezője szít vált (fehérről zöldre vagy fordítva).
+      </tr>       
+      <tr>
+            <td>H0014
+            <td>Home
+            <td> Változtatások mentése gombra kattintva
+            <td> Siker, felugró ablakban jelezve, a változtatások mentését.
+      </tr>
+      <tr>
+            <td>H0015
+            <td>Home
+            <td> Legördülő menüre kattintás (aktuális csapatnév)
+            <td> Siker, kiválaszthatjuk kattintással a felhasználó csapatait, annak táblázata jelenik meg.
+      </tr>
+                     
  </table>
