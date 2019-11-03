@@ -17,7 +17,7 @@ Az EasyPlanner célja, hogy megkönnyítse a rendszeresen összejáró csoportok
 ### Projektterv
 
 ###### Emberi erőforrások
-Az EasyPlanner weboldalon a Tacos kft. tagjai név szerint: 
+Az EasyPlanner weboldalon a Tacos kft. tagjai név szerint:
 - Lácza Roland
 - Varga Attila
 - Guzsik Dániel
@@ -40,7 +40,7 @@ Az EasyPlanner weblap projektjének elkészülési határideje 2019. szeptember 
 
 
 ###Projekt fizikai környezete
-Az EasyPlanner egy böngészőben futó webalkalmazés, ennek következtében a használatához valamilyen böngésző (Google chrome, Firefox, Opera, Internet Explorer) használata szükséges. 
+Az EasyPlanner egy böngészőben futó webalkalmazés, ennek következtében a használatához valamilyen böngésző (Google chrome, Firefox, Opera, Internet Explorer) használata szükséges.
 
 A projekt által támogatott eszközök:
 - asztali számítógép/laptop
@@ -75,24 +75,29 @@ Elképzelés:
 
 ###### Implementációs terv
 
-Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkül, csupán a Bootstrap, jQuery, popper.js könyvtárakat fogjuk igénybe venni.<br>A Model Controller View szerkezeti mintát követjük, és ez alapján építjük fel a mappaszerkezetet is.<br>Modulokban gondolkodunk, külön modul lesz egyes rendszerek implementálására, ilyen például a beléptető rendszer (login system), ezáltal könnyebb lesz bővíteni később a rendszert.<br>Minden modulon belül lesz külön az üzleti logikára koncentráló (model) rétegünk, ami nagyban elváll a megjelenéstől (view) és a vezérléstől (controller).<br>Egy-egy landing pagenek lesz külön absztrakciós osztálya, ami lebonyolítja a futási sorrend problémát, hogy mindenképpen először a felhasználó bemenő adatait kezeljük, és csak utána jelenítsük meg a végeredményt.<br>További tervezési mintákat is alkalmazunk a projekt során: factory method, singleton<br>Egyetlen belépési pont az index.php lesz, így könnyebb lesz levédeni esetleges támadások ellen.<br>A webalkalmazást egy külső webtárhelyen tároljuk amelyet egy szolgáltatótól bérlünk (RackHost).<br>
+Az alkalmazást PHP nyelven írjuk, keretrendszerek használata nélkül, csupán a Bootstrap, jQuery, popper.js könyvtárakat vesszük igénybe.<br>A Model View Controller szerkezeti mintát követjük, és ez alapján építjük fel a mappaszerkezetet is.<br>Modulokban gondolkodunk, külön modul lesz egyes rendszerek implementálására, ilyen például a beléptető rendszer (login system), ezáltal könnyebb lesz bővíteni később a rendszert.<br>Minden modulon belül lesz külön az üzleti logikára koncentráló (model) rétegünk, ami nagyban elváll a megjelenéstől (view) és a vezérléstől (controller).<br>Egy-egy landing pagenek lesz külön absztrakciós osztálya, ami lebonyolítja a futási sorrend problémát, hogy mindenképpen először a felhasználó bemenő adatait kezeljük, és csak utána jelenítsük meg a végeredményt.<br>További tervezési mintákat is alkalmazunk a projekt során: factory method, singleton<br>Egyetlen belépési pont az index.php lesz, így könnyebb lesz levédeni esetleges támadások ellen.<br>A webalkalmazást egy külső webtárhelyen tároljuk amelyet egy szolgáltatótól bérlünk (RackHost).<br>
 **Üzleti logikát implementáló osztályok**<br>
 *User*<br>Magát a felhasználót reprezentálja, ennek az osztálynak a segítségével lehet beazonosítani egy embert.<br>
+*UserManager*<br>
+A felhasználón végzett műveleteket végezzük ebben az osztályban, mint például a csapatválasztást egy játékosnak. Singleton osztály.
 *Team*<br>Egy adott csapatot reprezentál, paraméterként kap egy azonosítót, amely alapján egy csapatot tud kezelni az interfészén keresztül.<br>
 *TableManager*<br>A táblákat, csapatokat, felhasználókat összekötő manager osztály, ebben lehet lekérdezni az összes felhasználóhoz tartozó táblát, vagy akár csapat tagjaihoz tartozó táblákat, ez foglalkozik többek között az időpont-ütközésekkel is.
+Singleton osztály
+*TimeTableManager*<br>
+Az időpont táblázaton végzett műveleteket implementáljuk, például itt szeletelünk fel időintervallumokat időpontokká, és fordítva. Singleton osztály.
 
-### Üzleleti folyamatok
+### Üzleti folyamatok
 - **Felhasználó felvétele**: Mivel az eddigi rendszerben  nem lehettünk biztosak abban, hogy a mezőket a megfelelő felhasználó töltötte-e ki, a jövőbeli rendszerben muszáj lesz előzetesen regisztrálni ahhoz, hogy valamilyen módosítást végezzünk.
 - **Csapatok kezelése**: Az eddigi rendszerben a csapatok kezelése manuálisan kézileg és biztonsági szempontból is megkérdőjelezhetően működött. A weboldalon lehetőség lesz  csapatokat létrehozni. amibe csatlakozni felhasználó alapján felvétellel, csapatokhoz való jelentkezéssel vagy a csapatkapitány által generáltatható meghívó hivatkozás birtokánba lehet.
 - **Csapattagok kezelése**: A csoport vezetőjének lehetősége lesz felhasználókat felvenni felhasználónév, és meghívó link által is. Továbbá, tagok kirúgására is van lehetőség.
 
-### Adatbázisterv 
+### Adatbázisterv
 ![Adatbázis](img/ADATBÁZISTERV.PNG)
 
 
 ### Teszterv
  <table  style="width:100%" border="1px thin black" >
- 
+
  <tr>
  <th> Tesztjegy
  <th> Modul
@@ -106,36 +111,36 @@ Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkü
  <td>A bejelentkező űrlapot olyan felhasználó és jelszó párral töltik ki ami előzetesen nem regisztrált a rendszerben.
  <td> Hiba, a felület kijelzi, hogy a felhasználó és jelszó páros nem helyes.
  </tr>
- 
- 
+
+
  <tr>
   <td>H0002
   <td>Bejelentkezés
   <td>A bejelentkező űrlapot olyan felhasználóval töltik ki ami nem szerepel az adatbázisan.
   <td> Hiba, a felület kijelzi, hogy a felhasználó nem szerepel a rendszerben.
   </tr>
-  
+
   <tr>
    <td>H0003
    <td>Bejelentkezés
    <td>A bejelentkező űrlapot olyan  jelszóval párral töltik ki ami nem szerepel az adatbázisban.
    <td> Hiba, a felület kijelzi, hogy a jelszó nem szerepel az adatbázisban.
    </tr>
-   
+
    <tr>
     <td>H0004
     <td>Bejelentkezés
     <td>A bejelentkező űrlapot olyan felhasználó és jelszó párral töltik ki ami szerepel az adatbázisan.
     <td> Siker, a felület a "Home" oldalra irányít át.
     </tr>
-    
+
    <tr>
       <td>H0005
       <td>Regisztráció
       <td> A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres és megfelelnek a követelményeknek.
       <td> Siker, a felület a "Home" oldalra irányít át, bejelentkezve.
    </tr>
-   
+
    <tr>
          <td>H0006
          <td>Regisztráció
@@ -148,7 +153,7 @@ Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkü
          <td> A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező üres.
          <td> Hiba, a felület kijelzi, hogy a felhasználó, jelszó és a jelszó megerősítő túl rövid vagy nincs kitöltve.      
    </tr>
-   
+
   <tr>
         <td>H0008
         <td>Regisztráció
@@ -197,5 +202,29 @@ Az alkalmazást PHP nyelven fogjuk megírni, keretrendszerek használata nélkü
             <td> Legördülő menüre kattintás (aktuális csapatnév)
             <td> Siker, kiválaszthatjuk kattintással a felhasználó csapatait, annak táblázata jelenik meg.
       </tr>
-                     
+      <tr>
+            <td>H0016
+            <td>Home
+            <td> Legördülő menüben csapatnévre kattintás
+            <td> Siker, kiválasztjuk a csapatot
+      </tr>
+      <tr>
+            <td>H0017
+            <td>Home
+            <td> 'Csapat létrehozása gombra' kattintás
+            <td> Siker, csapat létrehozó űrlapra dobja a felhasználót
+      </tr>
+      <tr>
+            <td>H0018
+            <td>Home
+            <td> Csapat név kitöltése 3 karakternél hosszabb, de 32 karakternél rövidebb névvel, és a csapat leírás kitöltése 15-nél hosszabb, de 128 karakternél rövidebb leírással.
+            <td> Siker, csapat létrehozva megadott névvel és leírással
+      </tr>
+      <tr>
+            <td>H0019
+            <td>Home
+            <td> Csapat név és leírás kitöltése a kritériumoknak nem megfelelően.
+            <td> Hiba, hibaüzenet megjelenítése.
+      </tr>
+
  </table>
