@@ -24,6 +24,7 @@ Az EasyPlanner weboldalon a Tacos kft. tagjai név szerint:
 - Erdős Péter
 
 ###### Projekt időtartama
+[2.2]<br>
 Az EasyPlanner weblap projektjének elkészülési határideje 2019. szeptember 30. (Amennyiben ez nem teljesül az elég nagy probléma lehet a Taco kft. számára)
 
 
