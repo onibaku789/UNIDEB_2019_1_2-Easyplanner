@@ -28,15 +28,24 @@ Az EasyPlanner weblap projektjének elkészülési határideje 2019. szeptember 
 
 
 ###### Mérföldkövek meghatározása:
-1. Domain meghatározása: Megfelelő domain név meghatározása. Elérhető szolgáltató felkutatása és a domain lefoglalása, üzembe helyezése.
-2. Regisztárlciós űrlap elkészítése: A regisztrálciós űrlap működőképes a jelszó tárolása biztonságos, a felhasználónév ütközések vizsgálata és azok tiltása
-3. Bejelentkezés/Kijelentkezés: A már regisztrált felhasználók mindegyike képes az oldalra bejelentkezni és kijelentkezni.
-4. Az alkalmas időpontok kezelése: A felhasználó meg tudja adni a számára elérhető időpontokat a renszer ezt képes kiértékelni a többi felhasználótól származó időpontokkal.
-5. Táblázatok készítése a befolyt adatokból: A rendszer a heti táblázatokat képes megalkotni, vizuális információt szolgáltat a táblázaton keresztül a megfelelő időpontokról
-7. Táblázat adatainak kiértékelése egy külön lapon
-8. Csapat léterhozásának lehetősége felhasználók számára
-9. Admin felület elkészítése, admin folyamatok implementálása(pl.:jogkör adás/elvétel)
-10. My account felület elkészítése, felhasználói fiók kezelésének lehetsőge
+[2.3.1]<br>
+ Domain meghatározása: Megfelelő domain név meghatározása. Elérhető szolgáltató felkutatása és a domain lefoglalása, üzembe helyezése.
+[2.3.2]<br>
+ Regisztárlciós űrlap elkészítése: A regisztrálciós űrlap működőképes a jelszó tárolása biztonságos, a felhasználónév ütközések vizsgálata és azok tiltása
+[2.3.3]<br>
+ Bejelentkezés/Kijelentkezés: A már regisztrált felhasználók mindegyike képes az oldalra bejelentkezni és kijelentkezni.
+[2.3.4]<br>
+ Az alkalmas időpontok kezelése: A felhasználó meg tudja adni a számára elérhető időpontokat a renszer ezt képes kiértékelni a többi felhasználótól származó időpontokkal.
+[2.3.5]<br>
+ Táblázatok készítése a befolyt adatokból: A rendszer a heti táblázatokat képes megalkotni, vizuális információt szolgáltat a táblázaton keresztül a megfelelő időpontokról
+[2.3.6]<br>
+ Táblázat adatainak kiértékelése egy külön lapon
+[2.3.7]<br>
+ Csapat léterhozásának lehetősége felhasználók számára
+[2.3.8]<br>
+ Admin felület elkészítése, admin folyamatok implementálása(pl.:jogkör adás/elvétel)
+[2.3.9]<br>
+ My account felület elkészítése, felhasználói fiók kezelésének lehetsőge
 
 
 ###Projekt fizikai környezete
