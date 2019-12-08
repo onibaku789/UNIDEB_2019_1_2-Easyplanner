@@ -119,6 +119,8 @@ Az időpont táblázaton végzett műveleteket implementáljuk, például itt sz
 
 <br>[8.]
 ### Tesztterv
+[9.1]<br> A webalkalmazás tesztelését a fejlesztés során folyamatosan hajtjuk végre. Minden egyegy mérföldkő elkészülésévek a csapat teszteli annak funkcionális működését és ha az javítást igeényel azt megteszi. Az előzőlge elkészült funkciókat pedig minden új mérföldkő tesztelése mellett szúrópróba szerűen teszteljük. A fejlesztés befejezésével a csapat a következő pontben megadott tesztelési tervet lépésről lépésre végrehajtja.
+<br>[9.2]
  <table  style="width:100%" border="1px thin black" >
 
  <tr>
@@ -287,3 +289,26 @@ Az időpont táblázaton végzett műveleteket implementáljuk, például itt sz
       </tr>
 
  </table>
+ 
+<br>[9.3]<br>
+##### A tesztelés sémájának megadása: 
+
+Az alábbi táblázat kitöltése, melyben a név: a tesztelő neve. A Tesztjegy a 9.2 ben megadott Tesztjeggyel megegyező tesztjegy. A Művelet 9.2 ben az adott tesztjegyhez megadott művelet. A Várt hatás a 9.2 ben megadott Hatás az adott tesztjegyhez. Eredmény a tényleges hatásnak a leírása.
+
+<br>
+<table  style="width:100%" border="1px thin black" >
+    <tr>
+        <th>Név
+        <th>Tesztjegy
+        <th>Művelet
+        <th>Várt hatás
+        <th>Eredmény
+    </tr>
+    <tr>
+        <td>Tesztelő neve
+        <td>Hpélda
+        <td>A tesztjegyhez tartozó művelet
+        <td>Tesztjegyhez tartozó várható hatás
+        <td>Eredménye a tesztelésnek
+    </tr>    
+</table>
