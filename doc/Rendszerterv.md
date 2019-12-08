@@ -287,6 +287,36 @@ Az időpont táblázaton végzett műveleteket implementáljuk, például itt sz
             <td> Bejelentkezés után bedobja a meghívott csapatba. innentől az is kiválasztható.
             <td> Siker, bejelentkezés után a csapat megjelenik és kiválasztható
       </tr>
+      <tr>
+            <td>H0026
+            <td>Team
+            <td> Az időpontok kiválasztása és mentése után a csapat menüpont szabadidők tábla változása.
+            <td> A mentett időpontok megjelennek intervallumként a táblán.
+      </tr>
+      <tr>
+            <td>H0027
+            <td>Team
+            <td> Az időpontok törlése és mentése után a csapat menüpont szabadidők tábla változása.
+            <td> A törölt időpontok eltűnnek a Szabadidő oszlopából. 
+      </tr>
+      <tr>
+            <td>H0028
+            <td>Team
+            <td> Időpontok megadása után a közös időpontok változása.
+            <td> Siker, ha nincs más embernek megjelölt időpontja a lista üres.
+      </tr>
+      <tr>
+            <td>H0029
+            <td>Team
+            <td> Időpontok megadása után a közös időpontok változása.
+            <td>Amennyiben van közös időpont az időpont kezdete és vége megjelenik a táblán.
+      </tr>
+      <tr>
+            <td>H0030
+            <td>Team
+            <td>Időpontok törlése után a közös időpontok változása.
+            <td>A törölt időpontok kikerülnek a közös időpontokból, amennyiben már csak egy embernek megfelelő az időpont.
+      </tr>
 
  </table>
  
