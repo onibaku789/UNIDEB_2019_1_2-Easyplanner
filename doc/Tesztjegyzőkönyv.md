@@ -114,70 +114,70 @@ Az alábbi táblázat a EasyPlanner webalkalmazásnak a tesztelési jegyzőköny
         <td>>A tesztelés során a vártnak megfelelő működést tapasztaltam.
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0016
         <td>Legördülő menüben csapatnévre kattintás
         <td>Siker, kiválasztjuk a csapatot
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0017
         <td> 'Csapat létrehozása gombra' kattintás
         <td>Siker, csapat létrehozó űrlapra dobja a felhasználót
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0018
         <td>Csapat név kitöltése 3 karakternél hosszabb, de 32 karakternél rövidebb névvel, és a csapat leírás kitöltése 15-nél hosszabb, de 128 karakternél rövidebb leírással.
         <td>Siker, csapat létrehozva megadott névvel és leírással
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0019
         <td>Csapat név és leírás kitöltése a kritériumoknak nem megfelelően.
         <td>Hiba, megfelelő hibaüzenet megjelenítése.
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0020
         <td>Csapatra kattintás
         <td>Siker, átvisz a csapat menüpontba
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0021
         <td>Ha csapatvezető vagy, akkor meghívó link gomb megjelenítése
         <td>Siker, a gomb megjelent
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0022
         <td>Meghívó link gombra kattintás
         <td>Siker, az eddig üres mezőbe egy link generálódott, amit a mellette lévő ollóval ki lehet másolni
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0023
         <td>Az ollóra kattintással vágólapra tenni az inputban lévő linket
         <td>Siker, az inputban lévő link a vágólapon
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0024
         <td>A kimásolt linkkel látogatva az oldalt ha az illető nincs bejelentkezve, akkor a bejelentkezés pontra dobja
         <td>Siker, az illetőt a bejelentkezés menüpontra dobja.
         <td>
     </tr>
     <tr>
-        <td>
+        <td> Varga Attila
         <td>H0025
         <td>Bejelentkezés után bedobja a meghívott csapatba. innentől az is kiválasztható.
         <td>Siker, bejelentkezés után a csapat megjelenik és kiválasztható
