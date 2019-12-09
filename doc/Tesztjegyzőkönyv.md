@@ -183,4 +183,38 @@ Az alábbi táblázat a EasyPlanner webalkalmazásnak a tesztelési jegyzőköny
         <td>Siker, bejelentkezés után a csapat megjelenik és kiválasztható
         <td>
     </tr>
+        <td>Erdős Péter
+        <td>H0026
+        <td> Az időpontok kiválasztása és mentése után a csapat menüpont szabadidők tábla változása.
+        <td>A mentett időpontok megjelennek intervallumként a táblán.
+        <td>Minden a vártaknak megfelelően történt a tesztjegy tesztelése során.
+    </tr>
+    <tr>
+        <td>Erdős Péter
+        <td>H0027
+        <td>Az időpontok törlése és mentése után a csapat menüpont szabadidők tábla változása.
+        <td> A törölt időpontok eltűnnek a Szabadidő oszlopából.
+        <td>Minden a vártaknak megfelelően történt a tesztjegy tesztelése során.
+    </tr>
+    <tr>
+        <td>Erdős Péter
+        <td>H0028
+        <td>Időpontok megadása után a közös időpontok változása.
+        <td> Siker, ha nincs más embernek megjelölt időpontja a lista üres.
+        <td>Minden a vártaknak megfelelően történt a tesztjegy tesztelése során.
+    </tr>
+    <tr>
+        <td>Erdős Péter
+        <td>H0029
+        <td>Időpontok megadása után a közös időpontok változása.
+        <td>Amennyiben van közös időpont az időpont kezdete és vége megjelenik a táblán.
+        <td>Minden a vártaknak megfelelően történt a tesztjegy tesztelése során.
+    </tr>    
+    <tr>
+        <td>Erdős Péter
+        <td>H0030
+        <td>Időpontok törlése után a közös időpontok változása.
+        <td>A törölt időpontok kikerülnek a közös időpontokból, amennyiben már csak egy embernek megfelelő az időpont.
+        <td>Minden a vártaknak megfelelően történt a tesztjegy tesztelése során.
+    </tr>
 </table>
