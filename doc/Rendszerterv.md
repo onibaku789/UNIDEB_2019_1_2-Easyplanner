@@ -1,21 +1,24 @@
 # Rendszerterv
 * * *
-###Tartalomjegyzék
-- [Bevezető](#bevezető)
-- [Mérföldkövek](#Mérföldkövek)
-- [Fizikai környezet](#fizikai-környezet)
-- [Architekturális terv](#architekturális-terv)
-- [Felhasználói felület](#felhasználói-felület)
-- [Adatbázis terv](#adatbázis-terv)
-- [Üzleti folyamatok](#üzleti-folyamatok)
-- [Tesztterv](#tesztterv)
-### Bevezető
+### Tartalomjegyzék
+- [1. Bevezető](#Bevezető)
+- [2. Projektterv](#projektterv)
+- [3. Projekt fizikai környezete](#projekt-fizikai-környezete)
+- [4. Karbantartási tervezet](#karbantartási-tervezet)
+- [5. Felhasználói felület](#felhasználói-felület)
+- [6. Adatbázis terv](#adatbázis-terv)
+- [7. Üzleti folyamatok](#üzleti-folyamatok)
+- [8. Tesztterv](#tesztterv)
 
+<br>[1.]
+### Bevezető
+[1.1]<br>
 Az EasyPlanner célja, hogy megkönnyítse a rendszeresen összejáró csoportok számára a találkozók idejének a meghatározását és jól látható egyértelmű módon vizualizált formában is tudassa azt a felhasználóval. Ezt oly módon teszi, hogy a tagok mindegyike kiválasztja az egyes napokra a számáre legmegfelelőbb időpontokat, időintervallumot és ezek összegzése utána a rendszer minden egyes napra meghatároz idősávot/idősávokat, amelyben a lehető legtöbb tag elérhető. Továbbá ezt egy táblázatban ábrázolja is. A táblázatban látható legyen, hogy az adott napon kik és mikor érnek rá az adott tevékenységre, információt tudjon szolgáltatni arról, ha valaki egyáltalán nem ér ra aznap vagy épp nem biztos a megadott időpontban (talán elérhető a felhasználó).
 
-
+<br>[2.]
 ### Projektterv
 
+[2.1]<br>
 ###### Emberi erőforrások
 Az EasyPlanner weboldalon a Tacos kft. tagjai név szerint:
 - Lácza Roland
@@ -24,22 +27,32 @@ Az EasyPlanner weboldalon a Tacos kft. tagjai név szerint:
 - Erdős Péter
 
 ###### Projekt időtartama
+[2.2]<br>
 Az EasyPlanner weblap projektjének elkészülési határideje 2019. szeptember 30. (Amennyiben ez nem teljesül az elég nagy probléma lehet a Taco kft. számára)
 
 
-###### Mérföldkövek meghatározása:
-1. Domain meghatározása: Megfelelő domain név meghatározása. Elérhető szolgáltató felkutatása és a domain lefoglalása, üzembe helyezése.
-2. Regisztárlciós űrlap elkészítése: A regisztrálciós űrlap működőképes a jelszó tárolása biztonságos, a felhasználónév ütközések vizsgálata és azok tiltása
-3. Bejelentkezés/Kijelentkezés: A már regisztrált felhasználók mindegyike képes az oldalra bejelentkezni és kijelentkezni.
-4. Az alkalmas időpontok kezelése: A felhasználó meg tudja adni a számára elérhető időpontokat a renszer ezt képes kiértékelni a többi felhasználótól származó időpontokkal.
-5. Táblázatok készítése a befolyt adatokból: A rendszer a heti táblázatokat képes megalkotni, vizuális információt szolgáltat a táblázaton keresztül a megfelelő időpontokról
-7. Táblázat adatainak kiértékelése egy külön lapon
-8. Csapat léterhozásának lehetősége felhasználók számára
-9. Admin felület elkészítése, admin folyamatok implementálása(pl.:jogkör adás/elvétel)
-10. My account felület elkészítése, felhasználói fiók kezelésének lehetsőge
+###### [2.3] Mérföldkövek meghatározása:
+<br>[2.3.1]<br>
+ Domain meghatározása: Megfelelő domain név meghatározása. Elérhető szolgáltató felkutatása és a domain lefoglalása, üzembe helyezése.
+<br>[2.3.2]<br>
+ Regisztárlciós űrlap elkészítése: A regisztrálciós űrlap működőképes a jelszó tárolása biztonságos, a felhasználónév ütközések vizsgálata és azok tiltása
+<br>[2.3.3]<br>
+ Bejelentkezés/Kijelentkezés: A már regisztrált felhasználók mindegyike képes az oldalra bejelentkezni és kijelentkezni.
+<br>[2.3.4]<br>
+ Az alkalmas időpontok kezelése: A felhasználó meg tudja adni a számára elérhető időpontokat a renszer ezt képes kiértékelni a többi felhasználótól származó időpontokkal.
+<br>[2.3.5]<br>
+ Táblázatok készítése a befolyt adatokból: A rendszer a heti táblázatokat képes megalkotni, vizuális információt szolgáltat a táblázaton keresztül a megfelelő időpontokról
+<br>[2.3.6]<br>
+ Táblázat adatainak kiértékelése egy külön lapon
+<br>[2.3.7]<br>
+ Csapat léterhozásának lehetősége felhasználók számára
+<br>[2.3.8]<br>
+ Admin felület elkészítése, admin folyamatok implementálása(pl.:jogkör adás/elvétel)
+<br>[2.3.9]<br>
+ My account felület elkészítése, felhasználói fiók kezelésének lehetsőge
 
-
-###Projekt fizikai környezete
+<br>[3.]
+### Projekt fizikai környezete
 Az EasyPlanner egy böngészőben futó webalkalmazés, ennek következtében a használatához valamilyen böngésző (Google chrome, Firefox, Opera, Internet Explorer) használata szükséges.
 
 A projekt által támogatott eszközök:
@@ -48,25 +61,27 @@ A projekt által támogatott eszközök:
 
 A webalkalmazás bármely fentebb említett böngészőket futtatni képes operációsrendszeren elérhető.
 
-
+<br>[4.]
 ### Karbantartási tervezet
 
 A projekt átadása után a megrendelővel együttesen meghatározott megállapodás alapján.
 
+<br>[5.]
 ### Felhasználói felület
 
+[5.1]<br>
 **Belépés a rendszerbe**
 A felhasználó a főoldalt, azon is csak bizonyos szövegeket fog látni, ezen kívül pedig csak bejelentkezni, és regisztrálni tud majd. Felhasználónév, jelszó megadásával belépteti a rendszer, és átdobja a főoldalra. Ezt regisztrációnál email cím, felhasználónév, jelszó megadásával  szintén bejelentkezteti a főoldalra.
 
 Elképzelés:
 ![Kinezet terv](img/login-page.jpg)
-
+<br>[5.2]<br>
 **Csapathoz csatlakozás**
 Minden felhasználónak első körben csatlakoznia kell, vagy létre kell hoznia egy csapatot, ezután átirányítja egy oldalra, ahol megadhatja a heti beosztását egy táblázat segítségével.
 
 Elképzelés:
 ![Elképzelés](img/team-page.jpg)
-
+<br>[5.3]<br>
 **Profil szerkesztése**<br>
 MInden felhasználónak lehetősége nyílik arra, hogy megváltoztassa a jelszavát és az avatarját egy előre definiált listából. Továbbá a felhasználó alap adatai is megjelennek az oldalon
 
@@ -86,6 +101,7 @@ Singleton osztály
 *TimeTableManager*<br>
 Az időpont táblázaton végzett műveleteket implementáljuk, például itt szeletelünk fel időintervallumokat időpontokká, és fordítva. Singleton osztály.
 
+<br>[6.]
 ### Üzleti folyamatok
 - **Felhasználó felvétele**: Mivel az eddigi rendszerben  nem lehettünk biztosak abban, hogy a mezőket a megfelelő felhasználó töltötte-e ki, a jövőbeli rendszerben muszáj lesz előzetesen regisztrálni ahhoz, hogy valamilyen módosítást végezzünk.
 - **Csapatok kezelése**: Az eddigi rendszerben a csapatok kezelése manuálisan kézileg és biztonsági szempontból is megkérdőjelezhetően működött. A weboldalon lehetőség lesz  csapatokat létrehozni. amibe csatlakozni felhasználó alapján felvétellel, csapatokhoz való jelentkezéssel vagy a csapatkapitány által generáltatható meghívó hivatkozás birtokába lehet.
@@ -96,11 +112,15 @@ Az időpont táblázaton végzett műveleteket implementáljuk, például itt sz
 - **Létrehozás megerősítése**: Amennyiben a kitöltött adatokkal a csapat létrehozásánál a felhasználó elégedett. A kék csapat létrehozása gombra kattintva menti azokat, létrehozza a csapat tábláját és be is lép a csapatba automatikusan.
 - **Csapat létrehozásának visszavonása**: Amennyiben a csapat létrehozása felületen vagyunk és kitöltöttük a csapat adatait, de mégsem kívánjuk létrehozni azt. A Vissza a főoldalra gombra kattintva, a főoldal jelenik meg és a csapat nem kerül létrehozásra.
 - **Intervallum kiszámítása**: A rendszer képes arra, hogy az időintervallumokból, amiket lementünk táblánként kiszámolja a legmegfelelőbb intervallumot, és kilistázza az(okat ha esetleg több lenne belőlük). Lehetséges napra bontani az optimális időket, vagy kilistázni az összes csapattag idejét.
-### Adatbázisterv
+
+<br>[7.]
+### Adatbázis terv
 ![Adatbázis](img/ADATBÁZISTERV.PNG)
 
-
-### Teszterv
+<br>[8.]
+### Tesztterv
+[9.1]<br> A webalkalmazás tesztelését a fejlesztés során folyamatosan hajtjuk végre. Minden egyegy mérföldkő elkészülésévek a csapat teszteli annak funkcionális működését és ha az javítást igeényel azt megteszi. Az előzőlge elkészült funkciókat pedig minden új mérföldkő tesztelése mellett szúrópróba szerűen teszteljük. A fejlesztés befejezésével a csapat a következő pontben megadott tesztelési tervet lépésről lépésre végrehajtja.
+<br>[9.2]
  <table  style="width:100%" border="1px thin black" >
 
  <tr>
@@ -267,5 +287,58 @@ Az időpont táblázaton végzett műveleteket implementáljuk, például itt sz
             <td> Bejelentkezés után bedobja a meghívott csapatba. innentől az is kiválasztható.
             <td> Siker, bejelentkezés után a csapat megjelenik és kiválasztható
       </tr>
+      <tr>
+            <td>H0026
+            <td>Team
+            <td> Az időpontok kiválasztása és mentése után a csapat menüpont szabadidők tábla változása.
+            <td> A mentett időpontok megjelennek intervallumként a táblán.
+      </tr>
+      <tr>
+            <td>H0027
+            <td>Team
+            <td> Az időpontok törlése és mentése után a csapat menüpont szabadidők tábla változása.
+            <td> A törölt időpontok eltűnnek a Szabadidő oszlopából. 
+      </tr>
+      <tr>
+            <td>H0028
+            <td>Team
+            <td> Időpontok megadása után a közös időpontok változása.
+            <td> Siker, ha nincs más embernek megjelölt időpontja a lista üres.
+      </tr>
+      <tr>
+            <td>H0029
+            <td>Team
+            <td> Időpontok megadása után a közös időpontok változása.
+            <td>Amennyiben van közös időpont az időpont kezdete és vége megjelenik a táblán.
+      </tr>
+      <tr>
+            <td>H0030
+            <td>Team
+            <td>Időpontok törlése után a közös időpontok változása.
+            <td>A törölt időpontok kikerülnek a közös időpontokból, amennyiben már csak egy embernek megfelelő az időpont.
+      </tr>
 
  </table>
+ 
+<br>[9.3]<br>
+##### A tesztelés sémájának megadása: 
+
+Az alábbi táblázat kitöltése, melyben a név: a tesztelő neve. A Tesztjegy a 9.2 ben megadott Tesztjeggyel megegyező tesztjegy. A Művelet 9.2 ben az adott tesztjegyhez megadott művelet. A Várt hatás a 9.2 ben megadott Hatás az adott tesztjegyhez. Eredmény a tényleges hatásnak a leírása.
+
+<br>
+<table  style="width:100%" border="1px thin black" >
+    <tr>
+        <th>Név
+        <th>Tesztjegy
+        <th>Művelet
+        <th>Várt hatás
+        <th>Eredmény
+    </tr>
+    <tr>
+        <td>Tesztelő neve
+        <td>Hpélda
+        <td>A tesztjegyhez tartozó művelet
+        <td>Tesztjegyhez tartozó várható hatás
+        <td>Eredménye a tesztelésnek
+    </tr>    
+</table>
