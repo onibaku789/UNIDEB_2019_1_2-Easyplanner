@@ -59,59 +59,59 @@ Az alábbi táblázat a EasyPlanner webalkalmazásnak a tesztelési jegyzőköny
         <td>A várható hatásnak megfelelő eredmény született.
     </tr>   
     <tr>
-        <td>Lácza Roland
+        <td>
         <td>H0008
         <td>A bejelentkező űrlapot olyan felhasználó és jelszó párral töltik ki ami előzetesen nem regisztrált a rendszerben.
         <td>Hiba, a felület kijelzi, hogy a jelszó mezőbe írt karaktersorozat túl rövid.
-        <td>A tesztelés során a vártnak megfelelő működést tapasztaltam.
+        <td>
     </tr>   
     <tr>
-        <td>Lácza Roland
+        <td>
         <td>H0009
         <td> A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a jelszó mezőbe beírt karaktersorozat hossza nagyobb vagy egyenlő mint 6, viszont a felhasználónév már megtalálható az adatbázisban.
         <td>Hiba, a felület kijelzi, hogy a felhaználónév már szerepel az adatbázisban, válasszon ettől különbözőt.
-        <td>A tesztelés során a vártnak megfelelő működést tapasztaltam.
+        <td>
     </tr>   
     <tr>
-        <td>Lácza Roland
+        <td>
         <td>H0010
         <td>A regisztrációs oldalon a "Regisztrálok" szövegre kattintás.
         <td>  Siker, az webalkamazás átirányít a bejelentkező oldalra,
-        <td>A tesztelés során a vártnak megfelelő működést tapasztaltam.
+        <td>
     </tr>   
     <tr>
-        <td>Lácza Roland
+        <td>
         <td>H0011
         <td>A kijelentkezés gombra kattintás.
         <td>Siker, felugró ablakban jelezve, a felhasználó kiléptetését.
-        <td>A tesztelés során a vártnak megfelelő működést tapasztaltam.
+        <td>
     </tr>   
     <tr>
-        <td>Lácza Roland
+        <td>
         <td>H0012
         <td>Csapat létrehozása gombra kattintás.
         <td> Siker, az alkalmazás a csapat létrehozá oldalra navigál.
-        <td>A tesztelés során a vártnak megfelelő működést tapasztaltam.
+        <td>
     <tr>
-        <td>Lácza Roland
+        <td>
         <td>H0013
         <td>Időpont megadása mezőre kattintva
         <td>Siker, a táblázat kattintott mezője szít vált (fehérről zöldre vagy fordítva).
-        <td>A tesztelés során a vártnak megfelelő működést tapasztaltam.
+        <td>
     </tr>
     <tr>
-        <td>Lácza Roland
+        <td>
         <td>H0014
         <td>Változtatások mentése gombra kattintva
         <td>Siker, felugró ablakban jelezve, a változtatások mentését.
-        <td>>A tesztelés során a vártnak megfelelő működést tapasztaltam.
+        <td>
     </tr>
     <tr>
-        <td>Lácza Roland
+        <td>
         <td>H0015
         <td>Legördülő menüre kattintás (aktuális csapatnév)
         <td>Siker, kiválaszthatjuk kattintással a felhasználó csapatait, annak táblázata jelenik meg.
-        <td>>A tesztelés során a vártnak megfelelő működést tapasztaltam.
+        <td>
     </tr>
     <tr>
         <td>
